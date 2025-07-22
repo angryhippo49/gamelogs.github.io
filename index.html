@@ -7,7 +7,47 @@
     <link rel="stylesheet" href="css/utils.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/mobile.css">
-    <title>Code and Console - Sathvik's blog</title>
+    <title>Gamelogs Homepage - Code and Console</title>
+    <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      display: flex;
+      gap: 30px;
+    }
+
+    .square {
+      width: 200px;
+      height: 200px;
+      background-color: #222;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-size: 18px;
+      font-weight: bold;
+      border-radius: 16px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+      cursor: pointer;
+      transition: transform 0.2s, background-color 0.3s;
+      text-decoration: none;
+    }
+
+    .square:hover {
+      transform: scale(1.05);
+      background-color: #444;
+    }
+  </style>
 </head>
 
 <body>
@@ -36,29 +76,40 @@
     </div>
     <div class="m-auto content max-width-1 my-2">
         <div class="content-left">
-            <h1>What This Is</h1>
-            <p>Code and Console is a website where I post blogs about my latest coding </p>
-            <p>Just a heads up, there will be a lot more coding blogs than gaming blogs.
-                One reason for this is that I am starting high school and due to a larger to-do list, I will experience 
-                a serious absence of gaming availability. Another reason will be that I'll utilize the time I have for 
-                gaming, which isn't a lot, and use it to blog about coding.</p>
+            <h1>Latest Gaming Blog</h1>
+            <p>July 19, 2025
+                I replayed Red Dead Redemption 2 to see how much better it would be 
+                if I took the high honor path of Arthur Morgan. This means as little
+                killing as possible, not antagonizing anyone, always helping anyone 
+                you find, and not following random people until they get scared and 
+                run out of the town, leaving them vulnerable for you to tie them up 
+                and feed them to alligators; the usual. So far, I am not as low honor
+                as I was on my original gameplay, but I still didn’t have enough to be 
+                considered high honor. Tonight, I might hop on just to spend my whole 
+                hour catching fish and throwing them back to regain the honor lost from 
+                spamming the antagonize button on people, hoping they give me an excuse to fight 
+                them. I also want to experience some of the side missions and question marks 
+                on the map as Arthur. On my first play-through, I was focused on finishing 
+                the main story or going on killing sprees. This time, I want to take my 
+                time and enjoy the game as Arthur because I know what happens to him at the end. 
+                I wanted to make sure he had a significant positive impact on the gang members 
+                after he died as well, because if you visit his grave after you reach 100% 
+                completion, there are tons of flowers there if he were high honor, but 
+                nothing if he was low honor.</p>
         </div>
         <div class="content-right">
             <img src="img/home.svg" alt="iBlog">
         </div>
     </div>
-  <div class="container">
-    <a href="coding.html" class="square-link">
-      <div class="square">
-        <h2>Coding Blogs</h2>
-      </div>
-    </a>
+    <div class="container">
+    <!-- Homepage -->
+    <a class="square" href="https://angryhippo49.github.io/#">Home</a>
 
-    <a href="gaming.html" class="square-link">
-      <div class="square">
-        <h2>Gaming Blogs</h2>
-      </div>
-    </a>
+    <!-- Coding Logs -->
+    <a class="square" href="coding-logs.html">Coding Logs</a>
+
+    <!-- Google Docs (replace with your real link) -->
+    <a class="square" href="file:///Users/sathviksethuraman/Downloads/Untitled%20document.pdf" target="_blank">Old Blogs</a>
   </div>
 </body>
 
