@@ -9,6 +9,35 @@
     <link rel="stylesheet" href="css/mobile.css">
     <title>Gamelogs Homepage - Code and Console</title>
     <style>
+        .content {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 40px;
+            padding: 20px;
+        }
+        .content-left {
+            flex: 1;
+        }
+        .content-right {
+            flex: 1;
+        }
+        .content-right img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        @media (max-width: 700px) {
+            .content {
+              flex-direction: column;
+              align-items: center;
+        }
+
+        .content-left, .content-right {
+            width: 100%;
+        }
+        }
+        
     body {
       margin: 0;
       padding: 0;
@@ -55,7 +84,7 @@
     <div class="max-width-1 m-auto">
         <hr>
     </div>
-    <div class="m-auto content max-width-1 my-2">
+    <div class="content max-width-1 my-2">
         <div class="content-left">
             <h1>Latest Gaming Blog</h1>
             <p>July 19, 2025
